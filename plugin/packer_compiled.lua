@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/auto-session",
     url = "https://github.com/rmagatti/auto-session"
   },
-  ["barbar.nvim"] = {
-    loaded = true,
-    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
-  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -98,11 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
-  },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -124,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/minintro.nvim",
     url = "https://github.com/eoh-bse/minintro.nvim"
   },
+  ["modus-themes.nvim"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/modus-themes.nvim",
+    url = "https://github.com/miikanissi/modus-themes.nvim"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/nvim-dap",
@@ -143,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/nvim-dap-vscode-js",
     url = "https://github.com/mxsdev/nvim-dap-vscode-js"
+  },
+  ["nvim-nio"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/nvim-nio",
+    url = "https://github.com/nvim-neotest/nvim-nio"
   },
   ["nvim-surround"] = {
     loaded = true,
@@ -203,11 +203,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
-  },
-  ["twilight.nvim"] = {
-    loaded = true,
-    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/twilight.nvim",
-    url = "https://github.com/folke/twilight.nvim"
   },
   ["vim-visual-multi"] = {
     loaded = true,

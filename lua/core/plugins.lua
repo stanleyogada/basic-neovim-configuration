@@ -13,8 +13,9 @@ local packer_bootstrap = ensure_packer()
 
 
 return require('packer').startup(function(use)
+  use({ "miikanissi/modus-themes.nvim" })
   use "wbthomason/packer.nvim"
-  use "projekt0n/github-nvim-theme"
+  -- use "projekt0n/github-nvim-theme"
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"
   use "nvim-lualine/lualine.nvim"
@@ -28,13 +29,13 @@ return require('packer').startup(function(use)
     },
   }
   use "lewis6991/gitsigns.nvim"
-  use "romgrk/barbar.nvim"
+  -- use "romgrk/barbar.nvim"
   use "eoh-bse/minintro.nvim"
   use "stevearc/oil.nvim"
   use "NvChad/nvterm"
   use "github/copilot.vim"
   use "folke/which-key.nvim"
-  use "folke/twilight.nvim"
+  -- use "folke/twilight.nvim"
   use "folke/zen-mode.nvim"
   use "folke/todo-comments.nvim"
   use "folke/lsp-colors.nvim"
@@ -53,7 +54,8 @@ return require('packer').startup(function(use)
     "mfussenegger/nvim-dap",
     requires = {
       "theHamsta/nvim-dap-virtual-text",
-      "rcarriga/nvim-dap-ui"
+      "rcarriga/nvim-dap-ui",
+      "nvim-neotest/nvim-nio"
     }
   }
   -- NodeJS Debug Adapter
