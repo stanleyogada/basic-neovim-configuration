@@ -1,4 +1,4 @@
-# Lite Neovim Distro
+# Lite Neovim Distro (Suitable for MacOS Users)
 
 Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to provide a blazing fast, and lightweight Neovim setup in just a few seconds. This guide will walk you through the installation process and highlight the features included.
 
