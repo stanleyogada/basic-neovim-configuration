@@ -8,6 +8,7 @@
     "Tpage",
     "barbar",
     "keymap",
+    "nestjs",
     "nvim",
     "signup",
     "treesitter"
